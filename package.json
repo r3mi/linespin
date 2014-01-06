@@ -1,0 +1,17 @@
+{
+  "name": "linespin",
+  "version": "0.0.1",
+  "description": "Simple progress output",
+  "repository": { "type": "git", "url": "git://github.com/geekjuice/linespin.git" },
+  "author": "Nicholas Hwang",
+  "license": "MIT",
+  "bugs": { "url": "https://github.com/geekjuice/linespin/issues" },
+  "homepage": "https://github.com/geekjuice/linespin",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "main": "./lib/linespin.js"
+}
