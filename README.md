@@ -30,7 +30,10 @@ spinner animation
 
 
   // Some long running task...
+  linespin.error('Error!');
 
+  // Continuing process...
+  linespin.warn('Warning!');
 
   // Stop at the end of task
   linespin.stop();
@@ -44,18 +47,21 @@ spinner animation
   # During process...
 
   $ node linespin_example.js
-    [-] Spinning...
+    [!] Warning!        # red
+    [!] Error!          # Yellow
+    [-] Spinning...     # Blue
 
   # On finish
 
   $ node linespin_example.js
-    [✓] All done!
+    [✓] All done!       # Green
 ```
 
 
 ## Notes
 * Assumes your progress does not print to console/stdout as the spinner works by
   replacing the same line over and over again to produce the _animation_
+* Add editable color options
 * ~~Need to add Gruntfile~~
 
 
