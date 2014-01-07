@@ -11,7 +11,9 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "chai": "*"
+    "chai": "*",
+    "grunt-cli": "*",
+    "grunt-contrib-coffee": "*"
   },
   "main": "./lib/linespin.js"
 }

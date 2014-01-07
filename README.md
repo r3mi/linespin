@@ -56,7 +56,7 @@ spinner animation
 ## Notes
 * Assumes your progress does not print to console/stdout as the spinner works by
   replacing the same line over and over again to produce the _animation_
-* Need to add Gruntfile
+* ~~Need to add Gruntfile~~
 
 
 
