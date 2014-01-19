@@ -28,10 +28,10 @@ class Linespin
       _formatMessage @message
     _continue @
 
-  stop: ->
+  stop: (message) ->
     @state = 'stopped'
     _reset()
-    _lastMessage @doneMessage
+    _lastMessage message || @doneMessage
 
   error: (message) ->
     _errorMessage message
